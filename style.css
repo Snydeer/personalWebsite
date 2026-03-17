@@ -170,11 +170,11 @@ main {
   align-items: center;
   justify-content: center;
 
+  height: 30rem;
+
 }
 
 .section4-content .box{
-  height: 7rem;
-
   background-color: #3882F6;
   border-radius: 10px;
 
@@ -184,32 +184,47 @@ main {
   align-items: center;
   text-align: left;
 
-  margin: 2rem;
   margin-right: 15rem;
   margin-left: 15rem;
 }
 
 .section4-content .box .left{
-  margin-top: auto;
-  margin-bottom: auto;
-  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+  padding: 2rem;
 
 
 
 }
+.left span{
+  font-size: 24px;
+  font-weight: 450;
+}
 .left p{
-  font-size: 1em;
+  color: #E5E7EB;
+  font-size: .90em;
+  margin: 0;
 }
 
 .box .sign-up-button{
   display:flex;
   justify-content: center;
-  align-items: cetner;
+  align-items: center;
   margin: 4rem;
 
 }
 .box .sign-up-button button{
   width: 4rem;
+  border-radius: 5px;
+  color: #E5E7EB;
+  background-color: #3882F6;
+  border:  5px solid white;
+
+  /* padding: .5rem 1.5rem; */
+  /* width: auto; */
 }
 
 
@@ -226,5 +241,7 @@ footer{
 
   min-height: 0px;
   text-align: center;
+  
+
 }
 
