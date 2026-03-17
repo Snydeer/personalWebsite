@@ -1,4 +1,7 @@
 /* ===== GENERAL ===== */
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: "Roboto";
   color: #F9FAF8;
@@ -159,15 +162,69 @@ main {
   font-size: 2rem;
   font-weight: 300;
 }
-
+ /* Sign up bar */
 .section4-content{
-  background-color: #3882F6;
-  border-radius: 10px;
+  background-color: white;
 
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 2rem;
-  margin-right: 20rem;
-  margin-left: 20rem;
+
 }
+
+.section4-content .box{
+  height: 7rem;
+
+  background-color: #3882F6;
+  border-radius: 10px;
+
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+
+  margin: 2rem;
+  margin-right: 15rem;
+  margin-left: 15rem;
+}
+
+.section4-content .box .left{
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 1rem;
+
+
+
+}
+.left p{
+  font-size: 1em;
+}
+
+.box .sign-up-button{
+  display:flex;
+  justify-content: center;
+  align-items: cetner;
+  margin: 4rem;
+
+}
+.box .sign-up-button button{
+  width: 4rem;
+}
+
+
+
+
+
+
+footer{
+  height: 5rem;
+  background-color: #1a232f;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 0px;
+  text-align: center;
+}
+
